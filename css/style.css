@@ -1,0 +1,150 @@
+body{
+background-color:#f4f4f4;
+font:15px/1.5 Arial;
+margin:0;
+padding:0;
+background:url("../images/back.jpg") no-repeat;
+background-size:cover;
+}
+.container{
+width:80%;
+margin:auto;
+overflow:hidden;
+}
+.dark{
+padding:15px;
+background:#35424a;
+color:#ffffff;
+width:90%;
+height:90%;
+}
+header ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+header{
+background:#4c5dea;
+color:#ffffff;
+border-bottom:3px solid #9d3c2b;
+padding-top:30px;
+padding-bottom:10px;
+}
+header a{
+color:#ffffff;
+text-decoration:none;
+font-size:16px;
+}
+header li{
+float:left;
+display:in line;
+width:200px;
+text-align:center;
+padding:0 5px 0 5px;
+line-height:30px;
+font-size:40px;
+}
+header #branding{
+float:left;
+}
+header #branding h1{
+margin:0;
+}
+header nav{
+float:right;
+}
+header ul li a{
+display:block;
+}
+header ul li a:hover{
+background-color:orange;
+}
+header ul li ul li{
+display:none;
+}
+header ul li:hover ul li
+{
+display:block;
+}
+header .highlight,header .current a{
+color:yellow;
+font-weight:bold;
+}
+#showcase h1{
+color:red;
+text-align:center;
+margin-top:50px;
+margin-bottom:10px;
+font-size:55px;
+}
+#showcase p{
+color:#05fcd7;
+font-size:30px;
+}
+#showcase{
+min-height:250px;
+border:3px solid #9d3c2b;
+}
+#newsletter{
+padding:15px;
+color:orange;
+background:#35424a;
+border:3px solid #9d3c2b;
+}
+#newsletter h1{
+float:left;
+font-size:20px;
+}
+#newsletter form{
+float:right;
+padding-top:15px;
+}
+#newsletter input[type="email"]{
+width:250px;
+height:25px;
+margin:4px;
+}
+.button_1{
+height:38px;
+background:red;
+color:#ffffff;
+padding-left:20px;
+padding-right:20px;
+}
+footer{
+padding:20px;
+margin-top:0px;
+color:#ffffff;
+background-color:#e8491d;
+text-align:center;
+margin-top:0px;
+}
+article#main-col{
+float:left;
+width:65%;
+}
+article#main-col .page-title{
+font-size:30px;
+color:yellow;
+}
+article#main-col .team{
+font-size:20px;
+font-weight:bold;
+color:black;
+width:70%;
+}
+
+aside#sidebar{
+float:right;
+width:30%;
+mrgin-top:30px;
+height:90%;
+}
+aside#sidebar .para{
+font-size:20px;
+text-align:left;
+margin:10px 10px 10px 10px;
+padding:0 0 10px 10px;
+}
+
+
